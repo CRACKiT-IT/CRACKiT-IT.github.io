@@ -263,7 +263,7 @@ a:focus{
 textarea.form-control{
   height: 54px;
   color: #9F9F9F;
-  border-radius:0;
+  border-radius:5px;
   padding-left: 22px;
   text-transform: uppercase;
   color: #141414;
@@ -415,7 +415,7 @@ label.mc-label .fa{
   color:#fff;
   letter-spacing: 0.1em;
   font-weight: 500;
-  border-radius: 0;
+  border-radius: 10px;
   text-transform: uppercase;
   background-color: #C69932;
   -webkit-transition: all .3s ease-out;
@@ -587,6 +587,7 @@ a.fa:focus{
 
 .text-primary{
   color:#C69932;
+  text-transform: none;
 }
 
 
@@ -1365,6 +1366,7 @@ header .spacer + *{
   color: inherit;
   padding:8px 18px;
   border:2px solid #f0f5f9;
+  border-radius: 5px;
 }
 
 .filter li a:hover,
@@ -1373,6 +1375,7 @@ header .spacer + *{
   background-color: #C69932;
   text-decoration:none;
   color: #fff;
+  border-radius: 5px;
 }
 
 .filter-top{
@@ -1936,14 +1939,14 @@ img.mfp-img{
 
 .price-box{
   position: relative;
-  border:2px solid #f0f5f9;
+  border:3px solid #C69932;
 }
 
 .price-header{
   padding: 35px 20px;
   line-height: 1;
   color: #000;
-  background-color:#f0f5f9;
+  background-color:#E1E1E1;
 }
 
 .price-title{
@@ -2001,7 +2004,7 @@ img.mfp-img{
 }
 
 .leading.col-price .price-box{
-  border-color:#67D5B5;
+  border-color: #C69932;
 }
 
 .leading.col-price .price-header{
@@ -2541,7 +2544,7 @@ img.mfp-img{
 
   .navbar-nav > li{
     border-bottom: 0;
-    margin-left: 25px;
+    margin-left: 55px;
   }
 
   .navbar-nav li a{
@@ -2779,7 +2782,3 @@ img.mfp-img{
   .feature-box-wrap{
     margin-top: 50px;
   }
-
-
-
-
